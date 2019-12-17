@@ -1,0 +1,26 @@
+{
+  "name": "numberplace",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuqianHou/NumberPlace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuqianHou/NumberPlace/issues"
+  },
+  "homepage": "https://github.com/YuqianHou/NumberPlace#readme"
+}
