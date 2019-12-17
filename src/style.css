@@ -1,0 +1,159 @@
+.header h1 {
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.game {
+  display: grid;
+  grid: repeat(9, 44px) / auto-flow 44px;
+}
+
+.game input {
+  background-color: #bebebe;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: #ffffff;
+}
+
+.cur_situation {
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tip {
+  text-align: center;
+  line-height: 50px;
+  /* padding-bottom: 100px; */
+}
+
+.rule {
+  text-align: left;
+  font-size: 30px;
+  /* padding: 10px; */
+}
+
+.rules {
+  text-align: start;
+  /* padding: 10px; */
+}
+
+
+.select_header {
+  padding-right: 10px;
+}
+
+
+.todo {
+  margin: 20px 30px;
+}
+
+.start {
+  border: none;
+  width: 300px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  background-color: #bebebe;
+  border-radius: 8px;
+  margin: 10px 50px;
+}
+
+.submit {
+  border: none;
+  width: 300px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  background-color: #bebebe;
+  border-radius: 8px;
+  margin: 10px 50px;
+}
+
+.ranking_btn {
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: #000000;
+  background-color: #bebebe;
+  border-radius: 8px;
+  margin: 0 30px;
+}
+.submit-garde, .close {
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 8px;
+  margin: 0 30px;
+}
+
+.username-box {
+  display: none;
+  position: fixed;
+  top: 200px;
+  background-color: rgb(187, 187, 187);
+  border: 0px solid #f34949;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.username-box p {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  color: #f32323;
+}
+
+.rank-chart {
+  display: none;
+  position: fixed;
+  align-self: center;
+  background-color: rgb(187, 187, 187);
+  border: 0px solid #f34949;
+  border-radius: 15px;
+  padding: 40px 40px;
+  text-align: center;
+  height: 450px;
+  width: 300px;
+}
+
+.chart-best {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+  line-height: 80%;
+}
+
+.chart-header {
+  font-size: 20px;
+  color: #000000;
+  line-height: 90%;
+}
+
+.rank-chart ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+

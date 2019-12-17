@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      background-color: black;
+    }
+    </style>
+    
+    <title>NUMBER PLACE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <body>
+      <header class="header">
+        <h1>NUMBER PLACE</h1>
+      </header>
+      <div class="container">
+        <div class="game">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          
+        </div>
+        
+        <div class="info">
+          <div class="todo">
+            <span class="select_header">LEVEL</span>
+            <select class="select">
+              <option class="easy">EASY</option>
+              <option class="normal">NORMAL</option>
+              <option class="hard">HARD</option>
+            </select>
+            <button class="ranking_btn" onclick="openChart()">RANK</button>
+          </div>
+          <div class="cur_situation">
+            <label class="tip">Let's choose a level and press "START".</label>
+            <header class="rule">Rules:</header>
+            <label class="rules">The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9. </label>
+          </div>
+          <button class="start" onclick="showNumPl()">START</button>
+          <button class="submit" onclick="submitAnswer()">SUBMIT</button>
+        </div>
+        <div class="username-box">
+          <p>SUCCESS TIME：<span class="time">0</span>min</p>
+          <span>USERNAME：</span>
+          <input type="text" class="username"/>
+          <input class="submit-grade" type="button" onclick="submitGrade()" value="SUBMIT"/>
+        </div>
+        <div class="rank-chart">
+          <header class="chart-best">
+            <h3>The Best Score</h3>
+              <span class="b-username"></span>&nbsp;--&nbsp;<span class="b-time"></span>mins
+            <!-- </span> -->
+          </header>
+          <header class="chart-header">
+            <h3>Last 10 Scores</h3>
+          </header>
+          <ul class="rank-li">
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+            <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;mins</li>
+          </ul>
+          <button class="close" onclick="closeChart()">OK</button>
+        </div>
+      </div>
+    </body>
+<script src="./numberPlace.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="./api.js"></script>
+
+</html>
